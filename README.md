@@ -21,7 +21,7 @@ C++ Standard Library
 
 To compile the project, navigate to the directory containing the source code and use the following command:
 
-```g++ -o maze_generator main.cpp GenMaze.cpp Maze.cpp```
+```g++ -o maze_generator MazeMain.cpp GenMaze.cpp Maze.cpp```
 
 ### Running the Program
 
@@ -55,7 +55,7 @@ The End!
 
 **Code Overview**
 
-**main.cpp:** Contains the entry point for the application and handles the mode selection.
+**MazeMain.cpp:** Contains the entry point for the application and handles the mode selection.
 **GenMaze.h and GenMaze.cpp:** Define and implement the GenMaze class, which is responsible for generating the maze.
 **Maze.h and Maze.cpp:** Define and implement the Maze class, which represents the maze structure and handles maze generation and display.
 
